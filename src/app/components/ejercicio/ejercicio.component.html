@@ -1,0 +1,32 @@
+<div id="caja">
+
+
+</div>
+
+
+<!--
+<form action="">
+<div class="input-group mb-3">
+    <input type="text" [(ngModel)]="palabra" name="palabra" >
+    <button class="btn btn-primary" (click)="buscarLibro()" type="button" id="button-addon1">Button</button>
+   
+  </div>
+<table class="table" >
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">name</th>
+        <th scope="col">authors</th>
+        <th scope="col">img</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let l of libros ">
+                <th  scope="row">{{l.id}}</th>
+                <td>{{l.name}}</td>
+                <td *ngFor="let a of l.autores"><p>{{a}}</p></td>
+                <td><img src={{l.img}} ></td>
+        </tr>
+    </tbody>
+  </table>
+</form>
